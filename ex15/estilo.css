@@ -1,0 +1,99 @@
+*{
+    
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #f7ce00;
+    
+}
+section{
+   margin: 10%;
+    display: flex;
+    
+    
+    width: 805px;
+    height: 500px;
+    background-color: white;
+    box-shadow: 11px 10px 5px 0px rgba(0,0,0,0.13);
+-webkit-box-shadow: 11px 10px 5px 0px rgba(0,0,0,0.13);
+-moz-box-shadow: 11px 10px 5px 0px rgba(0,0,0,0.13);
+    
+
+}
+#formulario{
+    font-family: 'Lexend', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 340px;
+    height: 500px;
+    background-color: #FFFFFF;
+    
+    
+
+}
+.segunda{
+    display: flex;
+    flex-direction: column;
+    width:465px ;
+    height: 500px;
+    background-color:  #FFE600;
+    font-family: 'Zen Tokyo Zoo', cursive;
+    color: black;
+    font-size: 50px;
+    padding: 25px;
+    
+
+}
+h1{
+   
+    font-family: 'Zen Tokyo Zoo', cursive;
+}
+
+    
+
+
+.nometext,.idadenum, .botao{
+    width: 250px;
+}
+.nometext, .idadenum{
+    color: black;
+    background-color: #FFFFFF ;
+    border-top-color: #f7ce00;
+    border-left-color: #f7ce00;
+    border-right-color: #f7ce00;
+    border-bottom-color: #f7ce00;
+    border-radius: 9px;
+    border-width: 2px;
+    border-style: solid;
+    padding: 10px;
+}
+.botao{
+    border-radius: 20px;
+    width: 250px;
+    height: 40px;
+    border-style: none;
+    background-color: #FFE600;
+}
+
+.idadenum{
+    -moz-appearance: textfield;
+}
+textarea:focus, input:focus, select:focus {
+    outline: 0;
+} 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+ul, li{
+    list-style: none;
+}
+
+
+
