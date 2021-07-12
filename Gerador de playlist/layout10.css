@@ -1,0 +1,84 @@
+body, ul, li, p {
+    
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-family: 'Zen Tokyo Zoo', cursive;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    background-color: #FFE600;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:30px;
+}
+.layout{
+    
+    display: grid;
+    grid-template-columns: 860px 860px;
+    grid-template-rows:500px;
+    grid-row-gap:10px;
+    margin: 10px;
+    
+     
+    
+    
+    
+    
+    
+}
+.menu{
+    display: flex;
+
+
+}
+.menu li{
+    margin-left: 10px;
+
+}
+.menu li a{
+    display: block;
+    padding: 10;
+}
+body{
+    background-color: #f7ce00;
+}
+.sinopse{
+    background-color: #FFE600;
+    font-size: 49px;
+    padding: 20px;
+    
+}
+.esquerda{
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.direita{
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.sinopse.um{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+.sinopse.dois{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+
+
